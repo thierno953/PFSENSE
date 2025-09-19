@@ -1,3 +1,31 @@
+# Suricata (IDS/IPS) + Snort (with Oinkcode rules) + Watchdog / monitoring + SIEM
+
+![pfsense](/Task06-SURICATA-IDS/assets/01.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/02.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/02-1.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/03.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/04.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/05.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/06.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/07.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/08.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/08-1.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/09.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/10.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/11.png)
+
 ```sh
 # Detect ICMP Echo Requests (ping)
 alert icmp any any -> 192.168.129.4 any \
@@ -31,13 +59,55 @@ classtype:network-scan; flags:S;
 threshold:type both, track by_src, count 5, seconds 10; priority:2;)
 ```
 
+![pfsense](/Task06-SURICATA-IDS/assets/12.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/13.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/14.png)
+
 ```sh
 # Suppression syntax
 [ALERT] WAN - Ping detected a pfSense
 suppress gen_id 1, sig_id 100001, track by_src, ip 192.168.129.4
 ```
 
+![pfsense](/Task06-SURICATA-IDS/assets/15.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/16.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/17.png)
+
 ```sh
 # Official rules download
 https://snort.org/downloads#rules
 ```
+
+![pfsense](/Task06-SURICATA-IDS/assets/18.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/19.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/20.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/21.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/22.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/23.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/24.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/25.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/26.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/27.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/28.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/29.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/30.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/31.png)
+
+![pfsense](/Task06-SURICATA-IDS/assets/32.png)
