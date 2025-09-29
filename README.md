@@ -7,11 +7,22 @@
 A hands-on project showcasing **pfSense firewall** installation, configuration, and security features.
 Covers LAN/DMZ setup, NAT, VPN, IDS, and proxy filtering.
 
+## Objectives
+
+This project aims to provide hands-on experience in configuring and securing a pfSense firewall.
+Key goals include:
+
+- Understanding LAN/DMZ segmentation.
+- Configuring NAT and firewall rules.
+- Implementing secure remote access with OpenVPN.
+- Detecting intrusions using Suricata IDS.
+- Filtering web traffic with Squid and SquidGuard.
+
 ---
 
 ## Network Topology
 
-```sh
+```text
                    ┌───────────────┐
                    │     WAN       │
                    │   Internet    │
@@ -24,10 +35,12 @@ Covers LAN/DMZ setup, NAT, VPN, IDS, and proxy filtering.
                     └──────┬──────┘
              ┌─────────────┼─────────────┐
              │             │             │
-      ┌──────▼──────┐┌─────▼──────┐┌────▼─────┐
-      │    LAN      ││    DMZ      ││ OpenVPN  │
-      │ Internal PC ││ Web Server  ││ Remote   │
-      └─────────────┘└─────────────┘└─────────┘
+      ┌──────▼──────┐  ┌─────▼──────┐  ┌────▼─────┐
+      │    LAN      │  │    DMZ      │  │ OpenVPN  │
+      │ Internal PC │  │ Web Server  │  │ Remote   │
+      │ Services:   │  │ Services:   │  │ Clients  │
+      │ HTTP/FTP    │  │ HTTP/HTTPS  │  │ VPN      │
+      └─────────────┘  └─────────────┘  └─────────┘
 ```
 
 ---
@@ -53,6 +66,12 @@ Covers LAN/DMZ setup, NAT, VPN, IDS, and proxy filtering.
 
 ---
 
+## Usage
+
+- Each task folder contains step-by-step instructions and screenshots.
+
+---
+
 ## References
 
 - [pfSense Docs](https://docs.netgate.com/pfsense/en/latest/)
@@ -63,4 +82,4 @@ Covers LAN/DMZ setup, NAT, VPN, IDS, and proxy filtering.
 
 ## Author
 
-**thierno953** – System & Network Administration | Cybersecurity Enthusiast
+**thierno953** - System & Network Administration | Cybersecurity Enthusiast
