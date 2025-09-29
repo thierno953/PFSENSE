@@ -11,14 +11,14 @@ Covers LAN/DMZ setup, NAT, VPN, IDS, and proxy filtering.
 
 ## Tasks
 
-* `Task01-Installation` → pfSense installation & basic setup
-* `Task02-LAN-&-DMZ` → LAN/DMZ configuration
-* `Task03-SNAT-&-DNAT` → Source & Destination NAT
-* `Task04-OPENVPN` → OpenVPN server setup
-* `Task05-RADIUS-OPENVPN` → RADIUS authentication for OpenVPN
-* `Task06-SURICATA-IDS` → Suricata intrusion detection
-* `Task07-Squid-Transparent-Proxy` → Squid proxy configuration
-* `Task08-SQUID-GUARD-BLACKLIST` → Web filtering with SquidGuard
+- `Task01-Installation` -> pfSense installation & basic setup
+- `Task02-LAN-&-DMZ` -> LAN/DMZ configuration
+- `Task03-SNAT-&-DNAT` -> Source & Destination NAT
+- `Task04-OPENVPN` -> OpenVPN server setup
+- `Task05-RADIUS-OPENVPN` -> RADIUS authentication for OpenVPN
+- `Task06-SURICATA-IDS` -> Suricata intrusion detection
+- `Task07-Squid-Transparent-Proxy` -> Squid proxy configuration
+- `Task08-SQUID-GUARD-BLACKLIST` -> Web filtering with SquidGuard
 
 ---
 
@@ -32,9 +32,9 @@ Covers LAN/DMZ setup, NAT, VPN, IDS, and proxy filtering.
 
 ## References
 
-* [pfSense Docs](https://docs.netgate.com/pfsense/en/latest/)
-* [Suricata IDS](https://suricata.io/)
-* [Squid Proxy](http://www.squid-cache.org/)
+- [pfSense Docs](https://docs.netgate.com/pfsense/en/latest/)
+- [Suricata IDS](https://suricata.io/)
+- [Squid Proxy](http://www.squid-cache.org/)
 
 ---
 
