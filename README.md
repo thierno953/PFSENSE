@@ -1,68 +1,43 @@
 # PFSENSE Project
 
-This repository contains a series of practical tasks focused on installing, configuring, and securing a **pfSense firewall**.
-The goal is to learn and document step by step the deployment of various network and security services.
+[![pfSense](https://img.shields.io/badge/pfSense-Firewall-blue)](https://www.pfsense.org/)
+[![Status](https://img.shields.io/badge/Status-Learning-green)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)]()
+
+A hands-on project showcasing **pfSense firewall** installation, configuration, and security features.
+Covers LAN/DMZ setup, NAT, VPN, IDS, and proxy filtering.
 
 ---
 
-## Repository Structure
+## Tasks
 
-- **Task01-Installation**
-  pfSense installation and initial setup.
-
-- **Task02-LAN-&-DMZ**
-  Configuring LAN and DMZ interfaces with firewall rules.
-
-- **Task03-SNAT-&-DNAT**
-  Setting up Source and Destination NAT rules.
-
-- **Task04-OPENVPN**
-  Deploying an OpenVPN server.
-
-- **Task05-RADIUS-OPENVPN**
-  Integrating RADIUS authentication with OpenVPN.
-
-- **Task06-SURICATA-IDS**
-  Installing and configuring Suricata IDS for intrusion detection.
-
-- **Task07-Squid-Transparent-Proxy**
-  Configuring a transparent proxy with Squid to control web traffic.
-
-- **Task08-SQUID-GUARD-BLACKLIST**
-  Adding SquidGuard and configuring blacklists for web filtering.
+* `Task01-Installation` → pfSense installation & basic setup
+* `Task02-LAN-&-DMZ` → LAN/DMZ configuration
+* `Task03-SNAT-&-DNAT` → Source & Destination NAT
+* `Task04-OPENVPN` → OpenVPN server setup
+* `Task05-RADIUS-OPENVPN` → RADIUS authentication for OpenVPN
+* `Task06-SURICATA-IDS` → Suricata intrusion detection
+* `Task07-Squid-Transparent-Proxy` → Squid proxy configuration
+* `Task08-SQUID-GUARD-BLACKLIST` → Web filtering with SquidGuard
 
 ---
 
-## Requirements
+## Quick Start
 
-- Basic networking knowledge (TCP/IP, routing, NAT, VLANs).
-- Virtualization environment (VirtualBox, VMware, Proxmox, etc.).
-- pfSense ISO [Official Download](https://www.pfsense.org/download/).
-
----
-
-## Learning Objectives
-
-- Deploy and manage a pfSense firewall.
-- Configure network segmentation (LAN/DMZ).
-- Secure communications with VPN and RADIUS authentication.
-- Detect and analyze intrusions using Suricata IDS.
-- Implement transparent proxying and web filtering with Squid and SquidGuard.
+1. Download [pfSense ISO](https://www.pfsense.org/download/).
+2. Create a VM (VirtualBox / VMware / Proxmox).
+3. Install pfSense and follow the tasks step by step.
 
 ---
 
-## Documentation
+## References
 
-- [Official pfSense Documentation](https://docs.netgate.com/pfsense/en/latest/)
-- [Suricata IDS](https://suricata.io/)
-- [Squid Proxy](http://www.squid-cache.org/)
+* [pfSense Docs](https://docs.netgate.com/pfsense/en/latest/)
+* [Suricata IDS](https://suricata.io/)
+* [Squid Proxy](http://www.squid-cache.org/)
 
 ---
 
 ## Author
 
-**thierno953**
-
-- Enthusiast in system & network administration and cybersecurity.
-
----
+**thierno953** – System & Network Administration | Cybersecurity Enthusiast
