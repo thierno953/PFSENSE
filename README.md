@@ -26,7 +26,7 @@ Covers LAN/DMZ setup, NAT, VPN, IDS, and proxy filtering.
 
 1. Download [pfSense ISO](https://www.pfsense.org/download/).
 2. Create a VM (VirtualBox / VMware / Proxmox).
-3. Install pfSense and follow the tasks step by step.
+3. Install pfSense.
 
 ---
 
