@@ -9,6 +9,29 @@ Covers LAN/DMZ setup, NAT, VPN, IDS, and proxy filtering.
 
 ---
 
+## Network Topology
+
+```sh
+                   ┌───────────────┐
+                   │     WAN       │
+                   │   Internet    │
+                   └───────┬───────┘
+                           │
+                    ┌──────▼──────┐
+                    │   pfSense   │
+                    │ Firewall/   │
+                    │ VPN / IDS   │
+                    └──────┬──────┘
+             ┌─────────────┼─────────────┐
+             │             │             │
+      ┌──────▼──────┐┌─────▼──────┐┌────▼─────┐
+      │    LAN      ││    DMZ      ││ OpenVPN  │
+      │ Internal PC ││ Web Server  ││ Remote   │
+      └─────────────┘└─────────────┘└─────────┘
+```
+
+---
+
 ## Tasks
 
 - `Task01-Installation` -> pfSense installation & basic setup
